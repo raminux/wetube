@@ -9,10 +9,16 @@ function handleListening() {
 
 function handleHome(req, res) {
     console.log('Hello from home!!');
-    console.log(req);
+    // console.log(req);
     res.send("Hello from home!!");
 }
 
+function handleProfile(req, res) {
+    res.send("You are on my profile");
+}
+
 app.get("/", handleHome);
+
+app.get("/profile", handleProfile);
 
 app.listen(PORT, handleListening);
