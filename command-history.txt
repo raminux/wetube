@@ -13,3 +13,7 @@ npm install @babel/node
 npm install @babel/preset-env
 npm install @babel/core
 ////////////////////////////////////////
+
+//// how to install nodemon ////////////
+npm instal nodemon -D
+///////////////////////////////////////
