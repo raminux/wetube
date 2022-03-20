@@ -7,3 +7,9 @@ git add .
 git commit -m "some comment regarding the change"
 git push -u origin master
 //////////////////////////////////////////////////
+
+///// how to install babel//////////////
+npm install @babel/node
+npm install @babel/preset-env
+npm install @babel/core
+////////////////////////////////////////
