@@ -22,3 +22,11 @@ npm instal nodemon -D
 //// modifying nodemon ///////////////////////////////////////
 add --delay 2 inorder to restart the index.js after 2 seconds
 //////////////////////////////////////////////////////////////
+
+////// How to use middleware ////////////////////////////
+Middlewares are just some portions of the code that do 
+something useful before the final handler of a route. We 
+usually use app.use(middleware) to accomplish this goal. 
+It should be noted that the order of where we put 
+app.use(middleware) matters. 
+/////////////////////////////////////////////////////////

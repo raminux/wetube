@@ -15,6 +15,14 @@ const handleProfile = (req, res) => {
     res.send("You are on my profile");
 }
 
+const middleware = (req, res, next) => {
+    console.log("I'm the middleware!");
+    next();
+};
+
+app.use(middleware);
+
+// app.get("/", middleware, handleHome);
 app.get("/", handleHome);
 
 app.get("/profile", handleProfile);
