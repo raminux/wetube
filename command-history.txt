@@ -30,3 +30,11 @@ usually use app.use(middleware) to accomplish this goal.
 It should be noted that the order of where we put 
 app.use(middleware) matters. 
 /////////////////////////////////////////////////////////
+
+///// Some useful middlewares ////////////////////////////
+npm install morgan -----> http request logger
+npm install helmet -----> securing express app by setting various http headers
+npm install cookie-parser ---> for cookies and session
+npm install body-parser ---> parse incoming request body, available at req.body
+//////////////////////////////////////////////////////////
+
