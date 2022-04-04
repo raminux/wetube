@@ -42,3 +42,9 @@ npm install body-parser ---> parse incoming request body, available at req.body
 We created two files namely app.js and init.js. Inside app.js the express app 
 is created and exported. Then, inside the init.js file, the app is used.
 //////////////////////////////////////////////////////////////////////////
+
+//////// Adding Express router to the project /////////////////////
+Adding a simple userRouter and testing its behavior. It is awesome!
+///////////////////////////////////////////////////////////////////
+
+///////////
