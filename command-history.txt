@@ -38,3 +38,7 @@ npm install cookie-parser ---> for cookies and session
 npm install body-parser ---> parse incoming request body, available at req.body
 //////////////////////////////////////////////////////////
 
+//////// Restructuring the Project //////////////////////////
+We created two files namely app.js and init.js. Inside app.js the express app 
+is created and exported. Then, inside the init.js file, the app is used.
+//////////////////////////////////////////////////////////////////////////
