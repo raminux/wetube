@@ -53,6 +53,8 @@ The View part handles the representation, and the Controller part acts as a midd
 fetch data from Model and feed it to the View. MVC is one of the most popular software develpment
 patterns. 
 Here, we are trying to learn MVC and ow to use it inside nodejs application development. 
+First step is to add routers for different parts of the application. 
+Second step is to name all routes in a specific file called routes.js.
 
 
 /////////////////////////////////////////////////////////////////////
