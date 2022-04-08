@@ -47,4 +47,12 @@ is created and exported. Then, inside the init.js file, the app is used.
 Adding a simple userRouter and testing its behavior. It is awesome!
 ///////////////////////////////////////////////////////////////////
 
-///////////
+/////////// MVC description ///////////////////////////////////////
+MVC stands for Model, View, and Controller. The Model part is responsible for data modeling. 
+The View part handles the representation, and the Controller part acts as a middleware to 
+fetch data from Model and feed it to the View. MVC is one of the most popular software develpment
+patterns. 
+Here, we are trying to learn MVC and ow to use it inside nodejs application development. 
+
+
+/////////////////////////////////////////////////////////////////////
