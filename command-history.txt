@@ -53,9 +53,17 @@ The View part handles the representation, and the Controller part acts as a midd
 fetch data from Model and feed it to the View. MVC is one of the most popular software develpment
 patterns. 
 Here, we are trying to learn MVC and ow to use it inside nodejs application development. 
+----Controller part
 First step is to add routers for different parts of the application. 
 Second step is to name all routes in a specific file called routes.js.
 Third step to define controllers. Controllers are just those functions that are
 passed to routers. 
+
+------ View part
+First: install pug view engine
+$ npm install pug
+Second: set express view engine to pug
+Third: create a directory with the name of views and put templates their with the .pug extension
+Four: render those template in the response of controllers
 
 /////////////////////////////////////////////////////////////////////
