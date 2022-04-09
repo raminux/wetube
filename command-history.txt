@@ -65,6 +65,7 @@ $ npm install pug
 Second: set express view engine to pug
 Third: create a directory with the name of views and put templates their with the .pug extension
 Fourth: render those template in the response of controllers
-Fifth: layout templates 
+Fifth: layout templates
+Sixth: adding partials (header and footer) 
 
 /////////////////////////////////////////////////////////////////////
