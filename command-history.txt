@@ -71,5 +71,6 @@ Seventh: In order to access some variables from templates, it is required to
 define Express's 'locals' middleware to pass arguments to views. Let's do it. 
 Eigth: To send some variables to a specific template, we can pass them as the 
 second argument of the render method. 
+Ninth: Adding a little bit more functionality to the search page (Controller and View interaction)
 
 /////////////////////////////////////////////////////////////////////
