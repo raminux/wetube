@@ -72,5 +72,6 @@ define Express's 'locals' middleware to pass arguments to views. Let's do it.
 Eigth: To send some variables to a specific template, we can pass them as the 
 second argument of the render method. 
 Ninth: Adding a little bit more functionality to the search page (Controller and View interaction)
+Tenth: Let's add some basic html to the templates
 
 /////////////////////////////////////////////////////////////////////
